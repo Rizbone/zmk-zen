@@ -5,7 +5,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// ZEN
+// ZMK Big
+
 
 
 // ------- WIN -------------------
@@ -191,7 +192,7 @@
 
 		wAlterReset: wAlterReset
 		{
-            label = "wSymReset";
+            label = "wAlterReset";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -1037,7 +1038,7 @@
 				&kp LC(LS(X))
 
 				&kp LG(V)
-				&kp LC(LS(V))
+				&kp LC(LS(LA(V)))	
 				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
 				&kp LC(LS(LA(J)))
@@ -1079,7 +1080,7 @@
 		// Layer 10 - mAlter =	Alterantive						|
 		// -----------------------------------------------------|
 
-		win_mAlter
+		win_Alter
 		{
 			label = "win";
 
@@ -1242,7 +1243,7 @@
 				&kp RA(N2)				// hoch 2
 				&kp X
 				
-				&kp LS(NUHS)			// '
+				&kp RA(Q)				// @
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -1252,13 +1253,13 @@
 				// ----------------------------------------
 
 				&kp LCTL
-				&kp RA(Q)				// @
+				&kp LS(NUHS)			// '
 				&kp LC(LA(NUBS))		// grader strich
 				&kp LS(N6)				// &
-				&kp NUHS				// #
+				&kp LS(N2)				// "
 				&kp LS(N3)				// §
 
-				&kp LS(N2)				// "
+				&kp NUHS				// #
 				&kp LS(N1)				// !
 				&kp LS(N8)				// Runde
 				&kp LS(N9)				// Runde
