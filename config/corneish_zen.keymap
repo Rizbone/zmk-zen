@@ -639,23 +639,23 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(B))	
 				&kp LC(HOME)				// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
 				&kp DEL
 
-				&kp LC(LA(C))	
-				&kp LC(LA(L))			
+				&kp LC(KP_MULTIPLY)	
+				&kp LC(KP_PLUS)		
 				&kp PG_UP
-				&kp LC(LA(R))		 	 
+				&kp LC(KP_MINUS)
 				&kp LC(UP)
 				&kp BSPC					
 
 				// ----------------------------------------
 
-				&kp LC(LA(B))	
+				&sl wSShift
 				&kp LC(END)					// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
@@ -676,7 +676,7 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&kp LC(LA(LS(C)))	
+				&kp LC(KP_DIVIDE)
 
 				&wAltShot
 				&kp LS(HOME)					// @Home 
@@ -712,12 +712,12 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(LS(B)))		
 				&kp PG_UP					//
 				&kp LS(TAB)
 				&kp UP						// 
 				&kp TAB
-				&kp BACKSPACE
+				&kp INSERT
 
 				&bt BT_CLR
 				&bt BT_SEL 1
@@ -728,12 +728,12 @@
 
 				// ----------------------------------------
 		
-				&kp BACKSPACE		
+				&sl wSShift	
 				&kp PG_DN					//
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp ENTER
+				&kp LC(LA(LS(G)))
 
 				&kp C_PLAY					//						//
 				&kp LALT					// 
@@ -749,7 +749,7 @@
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&kp END
-				&kp RSHIFT						
+				&kp ESC
 
 				&kp C_MUTE					//
 				&kp C_PREV					//
@@ -982,8 +982,8 @@
 
 				&kp LC(P)	
 				&kp LC(LA(F))	
-				&kp LC(KP_PLUS)	
-				&kp LC(KP_MINUS)	
+				&kp LC(LA(L))	
+				&kp LC(LA(R))	
 				&kp LC(F)	
 				&kp LC(T)
 				
@@ -1055,8 +1055,8 @@
 
 				&kp LC(LS(P))
 				&kp LC(LS(LA(F)))	
-				&kp LC(LS(KP_PLUS))	
-				&kp LC(LS(KP_MINUS))
+				&kp LC(LS(LA(L)))	
+				&kp LC(LS(LA(R)))
 				&kp LC(LS(F))
 				&kp LC(LS(LS(T)))
 				
@@ -1371,10 +1371,10 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 14 - mSideShift =	Side Shift					|
+		// Layer 14 - wSideShift =	Side Shift					|
 		// -----------------------------------------------------|
 
-		win_mSShift
+		win_wSShift
 		{
 			label = "win";
 
@@ -1398,7 +1398,7 @@
 
 				// ----------------------------------------
 		
-				&none
+				&sl wSSShift
 				&none
 				&none
 				&none
@@ -1447,7 +1447,7 @@
 		// Layer 15 - mSSideShift =	Side Shift					|
 		// -----------------------------------------------------|
 
-		win_mSSShift
+		win_wSSShift
 		{
 			label = "win";
 
@@ -1462,16 +1462,16 @@
 				&kp LC(LA(LG(B)))
 				&kp LG(L)
 
+				&none
 				&kp LC(F1)
-				&kp LC(LA(LG(M)))
-				&kp LC(LA(LG(W)))
+				&none
 				&none
 				&none			
 				&kp BACKSPACE			
 
 				// ----------------------------------------
 		
-				&none
+				&trans
 				&none
 				&none
 				&none
@@ -1479,11 +1479,11 @@
 				&none
 
 				&kp LG(A)	
-				&kp LC(LS(S))
-				&kp LC(LA(LG(S)))
-				&none
-				&none
-				&kp LC(ENTER)				// 
+				&kp LG(LS(S))
+				&kp LC(LA(LG(J)))
+				&kp LC(LA(LG(K)))
+				&kp LC(LA(LG(U)))
+				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
@@ -1494,12 +1494,12 @@
 				&none
 				&none
 
-				&kp LC(LA(LG(J)))
-				&kp LC(LA(LG(U)))
-				&kp LC(LA(LG(K)))			
-				&none	
-				&none
-				&none
+				&kp LC(LA(LG(F7)))
+				&kp LC(LA(LG(F8)))
+				&kp LC(LA(LG(F9)))	
+				&kp LC(LA(LG(F10)))
+				&kp LC(LA(LG(F11)))
+				&kp LC(LA(LG(F12)))
 
 				// ----------------------------------------
 		
