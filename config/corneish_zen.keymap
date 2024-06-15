@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// ZMK Zen
+// ZMK ZEN
 
 
 
@@ -676,9 +676,9 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&kp LC(LS(F10))
-
 				&wAltShot
+
+				&kp LC(LS(F10))
 				&kp LS(HOME)					// @Home 
 				&kp LS(LC(LEFT))				// @Wort Sprung
 				&kp LS(LC(RIGHT))				// @Wort Sprung
@@ -733,9 +733,9 @@
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp PG_DN
+				&kp LC(LG(LA(B)))
 
-				&kp C_PLAY					//						//
+				&kp LC(LG(LA(G)))
 				&kp LALT					// 
 				&kp LCTL					//
 				&kp LGUI					//
@@ -749,9 +749,9 @@
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&kp END
-				&kp LC(LS(F11))
+				&kp PG_DN
 
-				&kp C_MUTE					//
+				&kp C_PLAY					//						//
 				&kp C_PREV					//
 				&kp C_VOL_DN						
 				&kp C_VOL_UP					
