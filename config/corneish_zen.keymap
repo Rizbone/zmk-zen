@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// ZMK Big
+// ZMK Zen
 
 
 
@@ -660,9 +660,9 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LC(LA(G))	
-
 				&kp LC(LA(B))	
+
+				&kp LC(LA(G))	
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -713,11 +713,11 @@
 				// ----------------------------------------
 
 				&kp ESC
-				&kp PG_UP					//
+				&kp LC(HOME)					
 				&kp LS(TAB)
-				&kp UP						// 
+				&kp UP						
 				&kp TAB
-				&kp INSERT
+				&kp PG_UP
 
 				&bt BT_CLR
 				&bt BT_SEL 1
@@ -729,11 +729,11 @@
 				// ----------------------------------------
 		
 				&sl wSShift	
-				&kp PG_DN					//
+				&kp LC(END)					
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp LC(LA(LS(G)))
+				&kp PG_DN
 
 				&kp C_PLAY					//						//
 				&kp LALT					// 
