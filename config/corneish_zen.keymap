@@ -1346,7 +1346,7 @@
 				&kp LS(N4) 				// $
 				&trans					//
 
-				&kp RA(LC(RBRC))		// ~
+				&kp RA(RBRC)			// ~
 				&trans
 				&kp RA(N7)				// Geschweift
 				&kp RA(N0)				// Geschweift
