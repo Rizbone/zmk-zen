@@ -5,8 +5,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// ZMK ZEN
-
+// ZMK Zen
 
 
 // ------- WIN -------------------
@@ -639,7 +638,7 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(B))	
 				&kp LC(HOME)				// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
@@ -660,9 +659,9 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LC(LA(B))	
-
 				&kp LC(LA(G))	
+				
+				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -676,9 +675,9 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&wAltShot
+				&kp LC(KP_DIVIDE)	
 
-				&kp LC(LS(F10))
+				&wAltShot
 				&kp LS(HOME)					// @Home 
 				&kp LS(LC(LEFT))				// @Wort Sprung
 				&kp LS(LC(RIGHT))				// @Wort Sprung
@@ -712,12 +711,12 @@
 
 				// ----------------------------------------
 
-				&kp ESC
-				&kp LC(HOME)					
+				&kp LC(LG(LA(B)))
+				&kp PG_UP
 				&kp LS(TAB)
 				&kp UP						
 				&kp TAB
-				&kp PG_UP
+				&kp INSERT
 
 				&bt BT_CLR
 				&bt BT_SEL 1
@@ -729,13 +728,13 @@
 				// ----------------------------------------
 		
 				&sl wSShift	
-				&kp LC(END)					
+				&kp PG_DN
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp LC(LG(LA(B)))
-
 				&kp LC(LG(LA(G)))
+
+				&kp C_PLAY					//						
 				&kp LALT					// 
 				&kp LCTL					//
 				&kp LGUI					//
@@ -744,19 +743,19 @@
 
 				// ----------------------------------------
 
-				&kp LSHIFT						//
+				&kp LSHIFT						
 				&kp HOME
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&kp END
-				&kp PG_DN
-
-				&kp C_PLAY					//						//
-				&kp C_PREV					//
+				&kp LC(LS(KP_DIVIDE))
+				
+				&kp C_MUTE
+				&kp C_PREV					
 				&kp C_VOL_DN						
 				&kp C_VOL_UP					
-				&kp C_NEXT					// 
-				&kp RSHIFT						//	//
+				&kp C_NEXT					
+				&kp RSHIFT						
 
 				// ----------------------------------------
 		
@@ -1243,7 +1242,7 @@
 				&kp RA(N2)				// hoch 2
 				&kp X
 				
-				&kp RA(Q)				// @
+				&kp LS(NUHS)			// '
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -1253,13 +1252,13 @@
 				// ----------------------------------------
 
 				&kp LCTL
-				&kp LS(NUHS)			// '
+				&kp RA(Q)				// @
 				&kp LC(LA(NUBS))		// grader strich
 				&kp LS(N6)				// &
-				&kp LS(N2)				// "
+				&kp NUHS				// #
 				&kp LS(N3)				// §
 
-				&kp NUHS				// #
+				&kp LS(N2)				// "
 				&kp LS(N1)				// !
 				&kp LS(N8)				// Runde
 				&kp LS(N9)				// Runde
@@ -1307,11 +1306,11 @@
 			bindings = <
 
 				// ----------------------------------------
-
+				
 				&kp ESC
 				&trans					//
-				&trans 					// 
-				&trans					//
+				&kp LS(EQUAL)			//
+				&kp EQUAL				// 
 				&kp RA(N3)				// hoch 3
 				&trans					//
 
