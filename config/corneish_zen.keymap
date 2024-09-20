@@ -2465,7 +2465,7 @@
 				
 				// ----------------------------------------
 
-				&mModAltReset
+				&mModSCtlReset
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
@@ -2538,8 +2538,8 @@
 				
 				// ----------------------------------------
 
+				&mModAltReset
 				&mModGuiReset
-				&mModSCtlReset
 				&trans						// 
 				&none
 				&mNavReset
