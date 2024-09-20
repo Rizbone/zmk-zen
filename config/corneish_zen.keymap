@@ -1900,12 +1900,12 @@
 
 				&kp ESC	
 				&kp RBKT  				// +
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
 				&kp NUHS				// #
 				&kp X
 				
-				&kp RA(Q)				// at
+				&kp LA(L)				// @
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -1932,10 +1932,10 @@
 
 				&mShiftReset
 				&kp LS(N7)				// /
-				&kp LC(LA(MINUS))		// backlslash
+				&kp LS(LA(N7))			// backlslash
 				&kp LS(N5)				// %
 				&kp LA(LC(E))			// €
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 
 				&kp LS(N0)				// =
 				&kp DOT					// .
@@ -1971,12 +1971,12 @@
 
 				&kp ESC	
 				&kp RBKT  				// +
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
 				&kp NUHS				// #
 				&kp X
 				
-				&kp RA(Q)				// at
+				&kp LA(L)				// @
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -2003,10 +2003,10 @@
 
 				&mMdLs
 				&kp LS(N7)				// /
-				&kp LC(LA(MINUS))		// backlslash
+				&kp LS(LA(N7))			// backlslash
 				&kp LS(N5)				// %
 				&kp LA(LC(E))			// €
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 
 				&kp LS(N0)				// =
 				&kp DOT					// .
@@ -2116,23 +2116,23 @@
 				// ----------------------------------------
 
 				&kp LC(LA(B))	
-				&kp LC(HOME)				// @Home Sprung
+				&kp LG(UP)					// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LC(KP_MULTIPLY)	
+				&kp LG(KP_MULTIPLY)	
 
 				&kp DEL
-				&kp LC(KP_PLUS)		
+				&kp LG(KP_PLUS)		
 				&kp PG_UP
-				&kp LC(KP_MINUS)
+				&kp LG(KP_MINUS)
 				&kp LC(UP)
 				&kp BSPC					
 
 				// ----------------------------------------
 
 				&sl mSShift
-				&kp LC(END)					// @End Sprung
+				&kp LG(DOWN)				// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
@@ -2148,17 +2148,17 @@
 				// ----------------------------------------
 
 				&kp LSHFT
-				&kp HOME					// @Home 
-				&kp LC(LEFT)				// @Wort Sprung
-				&kp LC(RIGHT)				// @Wort Sprung
-				&kp END
-				&kp LA(TAB)
+				&kp LG(LEFT)				// @Home 
+				&kp LA(LEFT)				// @Wort Sprung
+				&kp LA(RIGHT)				// @Wort Sprung
+				&kp LG(RIGHT)				// @End  
+				&kp LG(TAB)
 
 				&none
-				&kp LS(HOME)					// @Home 
-				&kp LS(LC(LEFT))				// @Wort Sprung
-				&kp LS(LC(RIGHT))				// @Wort Sprung
-				&kp LS(END)
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  
 				&kp LSHFT
 
 				// ----------------------------------------
@@ -2189,23 +2189,23 @@
 				// ----------------------------------------
 
 				&kp LC(LG(LA(B)))
-				&kp LC(LS(HOME))
+				&kp LG(LS(UP))					// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						
 				&kp TAB
-				&kp LC(LS(KP_MULTIPLY))
+				&kp LG(LS(KP_MULTIPLY))
 
 				&kp INSERT
-				&kp LC(LS(KP_PLUS))
-				&kp LC(PG_UP)
-				&kp LC(LS(KP_MINUS))
+				&kp LG(LS(KP_PLUS))
+				&kp LG(PG_UP)
+				&kp LG(LS(KP_MINUS))
 				&kp LA(UP)
 				&kp BACKSPACE
 
 				// ----------------------------------------
 		
 				&sl mSShift	
-				&kp LC(LS(END))
+				&kp LG(LS(DOWN))				// @End Sprung
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
@@ -2213,7 +2213,7 @@
 
 				&kp LCTL			
 				&kp LC(LA(LS(TAB)))		
-				&kp LC(PG_DN)
+				&kp LG(PG_DN)
 				&kp LC(LA(TAB))
 				&kp LA(DOWN)
 				&kp ENTER
@@ -2221,17 +2221,17 @@
 				// ----------------------------------------
 
 				&kp LSHIFT						
-				&kp LS(HOME)
-				&kp LC(LS(LEFT))
-				&kp LC(LS(RIGHT))
-				&kp LS(END)
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  
 				&wDoubleTab
 				
 				&kp LALT		
-				&kp LA(LEFT)					
-				&kp LC(LA(LEFT))				
-				&kp LC(LA(RIGHT))
-				&kp LA(RIGHT)					
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  					
 				&kp RSHIFT						
 
 				// ----------------------------------------
@@ -2507,13 +2507,13 @@
 				// ----------------------------------------
 
 				&kp LG(LS(F11))
-				&kp LC(LS(A))
+				&kp LG(LS(A))
 				&kp LC(LS(LA(L)))	
 				&kp LC(LS(LA(R)))
-				&kp LC(LS(C))			
-				&kp LC(LS(X))
+				&kp LG(LS(C))			
+				&kp LG(LS(X))
 
-				&kp LC(LA(H))
+				&kp LG(LA(H))
 				&kp LC(LS(LA(V)))	
 				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
@@ -2523,17 +2523,17 @@
 				// ----------------------------------------
 
 				&kp LG(LS(F12))
-				&kp LC(LS(S))
-				&kp LC(LS(Y))
-				&kp LC(LS(Z))
-				&kp LC(LS(O))
-				&kp LC(LS(DELETE))
+				&kp LG(LS(S))
+				&kp LG(LS(Y))
+				&kp LG(LS(Z))
+				&kp LG(LS(O))
+				&kp LG(LS(DELETE))
 
-				&kp LC(LS(P))
+				&kp LG(LS(P))
 				&kp LC(LS(LA(F)))	
 				&kp LG(LS(INSERT))
 				&kp LG(LS(DEL))	
-				&kp LC(LS(F))
+				&kp LG(LS(F))
 				&kp LC(LS(LA(C)))
 				
 				// ----------------------------------------
@@ -2581,17 +2581,17 @@
 				// ----------------------------------------
 		
 				&kp LCTL
-				&kp LC(N1)					// 11
-				&kp LC(N2)					// 12
-				&kp LC(N3)					// 13
-				&kp LC(N4)					// 14
-				&kp LC(N5)					// 15
+				&kp LG(N1)					// 11
+				&kp LG(N2)					// 12
+				&kp LG(N3)					// 13
+				&kp LG(N4)					// 14
+				&kp LG(N5)					// 15
 
-				&kp LC(N6)					// 16
-				&kp LC(N7)					// 17
-				&kp LC(N8)					// 18
-				&kp LC(N9)					// 19
-				&kp LC(N0)					// 20
+				&kp LG(N6)					// 16
+				&kp LG(N7)					// 17
+				&kp LG(N8)					// 18
+				&kp LG(N9)					// 19
+				&kp LG(N0)					// 20
 				&kp LCTL
 
 				// ----------------------------------------
@@ -2636,56 +2636,56 @@
 
 				// ----------------------------------------
 
-				&kp LC(ESC)					// 
-				&kp LC(J)					//
-				&kp LC(D)					//
-				&kp LC(U)					//
-				&kp LC(A)					//
-				&kp LC(X)					//
+				&kp LG(ESC)					// 
+				&kp LG(J)					//
+				&kp LG(D)					//
+				&kp LG(U)					//
+				&kp LG(A)					//
+				&kp LG(X)					//
 
-				&kp LC(P)					//
-				&kp LC(H)					//
-				&kp LC(L) 					//
-				&kp LC(M)					//
-				&kp LC(W) 					//
-				&kp LC(BACKSPACE)			//
+				&kp LG(P)					//
+				&kp LG(H)					//
+				&kp LG(L) 					//
+				&kp LG(M)					//
+				&kp LG(W) 					//
+				&kp LG(BACKSPACE)			//
 
 				// ----------------------------------------
 		
-				&kp LC(DEL)					//
-				&kp LC(C)					//
-				&kp LC(T)					//
-				&kp LC(I)					//
-				&kp LC(E)					//
-				&kp LC(O)					//
+				&kp LG(DEL)					//
+				&kp LG(C)					//
+				&kp LG(T)					//
+				&kp LG(I)					//
+				&kp LG(E)					//
+				&kp LG(O)					//
 
-				&kp LC(B)					//
-				&kp LC(N)					//
-				&kp LC(R)					//
-				&kp LC(S)					//
-				&kp LC(G)					//
-				&kp LC(ENTER)				// 
+				&kp LG(B)					//
+				&kp LG(N)					//
+				&kp LG(R)					//
+				&kp LG(S)					//
+				&kp LG(G)					//
+				&kp LG(ENTER)				// 
 
 				// ----------------------------------------
 
 				&kp LSHIFT
-				&kp LC(F)					//
-				&kp LC(V)					//
-				&kp LC(MINUS)				//
-				&kp LC(Y)					//
-				&kp LC(Q)					//
+				&kp LG(F)					//
+				&kp LG(V)					//
+				&kp LG(MINUS)				//
+				&kp LG(Y)					//
+				&kp LG(Q)					//
 
-				&kp LC(Z)					//
-				&kp LC(SEMICOLON)			//
-				&kp LC(LEFT_BRACKET)		//
-				&kp LC(SINGLE_QUOTE)		//
-				&kp LC(K) 					//
+				&kp LG(Z)					//
+				&kp LG(SEMICOLON)			//
+				&kp LG(LEFT_BRACKET)		//
+				&kp LG(SINGLE_QUOTE)		//
+				&kp LG(K) 					//
 				&kp LSHIFT
 
 				// ----------------------------------------
 		
 				&none						//
-				&kp LC(SPC)
+				&kp LG(SPC)
 				&none						// 
 				&none						//
 				&mNavReset
@@ -2714,12 +2714,12 @@
 				
 				&kp ESC
 				&kp RBKT  				// +
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
 				&kp NUHS				// #
-				&kp LC(LA(NUBS))		// grader strich
+				&kp LA(N7)				// grader strich
 				
-				&kp RA(Q)				// @
+				&kp LA(L)				// @
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp LS(N6)				// &
@@ -2728,11 +2728,11 @@
 
 				// ----------------------------------------
 
-				&kp RA(N2)
-				&kp RA(N7)
-				&kp RA(N8)
-				&kp RA(N9)
-				&kp RA(N0)
+				&kp NUBS				// ^
+				&kp LA(N5)				// Eckige
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
+				&kp LA(N6)				// Eckige
 				&kp LS(NUHS)			// '
 
 				&kp LS(N2)				// "
@@ -2746,23 +2746,23 @@
 
 				&kp LS(N3)
 				&kp LS(N7)				// /
-				&kp LC(LA(MINUS))		// backlslash
+				&kp LS(LA(N7))			// backlslash
 				&kp LS(N5)				// %
 				&kp LA(LC(E))			// €
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 
 				&kp LS(N0)				// =
 				&kp DOT					// .
 				&kp COMMA				// ,
 				&kp LS(SLASH)			// _
 				&kp SLASH 				// -
-				&kp LG(DOT)   			// @Sonderzeichen
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 		
 				// ----------------------------------------
 
 				&sl mSSYM				// deep
 				&kp SPACE
-				&kp LA(TAB)				// 
+				&kp LG(TAB)				// 
 				&none					//
 				&mNavReset
 				&none					//
@@ -2800,7 +2800,7 @@
 
 				// ----------------------------------------
 
-				&kp RA(N3)
+				&kp NUBS				// ^
 				&none					//
 				&none					//
 				&none
@@ -2823,18 +2823,18 @@
 				&kp LS(N4) 				// $
 				&kp LS(GRAVE)			// Grad
 
-				&kp RA(RBKT)			// ~
+				&kp LA(N)				// ~
 				&none
 				&none
 				&none
 				&none
-				&kp LG(DOT)   			// @Sonderzeichen
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 
 				// ----------------------------------------
 
 				&trans					//
 				&kp SPACE
-				&kp LA(TAB)				// 
+				&kp LG(TAB)				// 
 				&none					//
 				&mNavReset
 				&none					//
