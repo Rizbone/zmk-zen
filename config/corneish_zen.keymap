@@ -32,6 +32,30 @@
 #define wSShift 14
 #define wSSShift 15
 
+// ------- WIN -------------------
+
+#define mCHAR 16
+#define mNR 17
+#define mNRhard 18
+#define mLCHAR 19
+
+#define mNAV 20
+#define mSNAV 21
+
+#define mPRG 22
+#define mSPRG 23
+
+#define mFUNC 24
+#define mSFUNC 25
+#define mAlter 26
+#define mGUI 27
+
+#define mSYM 28
+#define mSSYM 29
+
+#define mSShift 30
+#define mSSShift 31
+
 
 
 
