@@ -1818,7 +1818,7 @@
 
 				// ----------------------------------------
 	
-				&sl wSShift
+				&sl mSShift
 				&kp C
 				&kp T
 				&kp I
@@ -1834,7 +1834,7 @@
 
 				// ----------------------------------------
 	
-				&wMdLs
+				&mMdLs
 				&kp F
 				&kp V
 				&kp MINUS
@@ -1846,16 +1846,16 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&wMdRs
+				&mMdRs
 
 				// ----------------------------------------
 
-				&sl wSYM
+				&sl mSYM
 				&kp SPACE
-				&sl wFUNC
-				&sl wPRG 
-				&sl wNAV
-				&wMdNr
+				&sl mFUNC
+				&sl mPRG 
+				&sl mNAV
+				&mMdNr
 
 				// ----------------------------------------
 			>;
@@ -1891,7 +1891,7 @@
 
 				// ----------------------------------------
 
-				&sl wSShift
+				&sl mSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -1903,11 +1903,11 @@
 				&kp N8			
 				&kp N9				
 				&kp N0				
-				&wEnterReset 
+				&mEnterReset 
 
 				// ----------------------------------------
 
-				&wShiftReset
+				&mShiftReset
 				&kp LS(N7)				// /
 				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
@@ -1919,15 +1919,15 @@
 				&kp COMMA				// ,
 				&kp LS(SLASH)			// _
 				&kp SLASH 				// -
-				&wShiftReset
+				&mShiftReset
 
 				// ----------------------------------------
 		
-				&wSymReset
-				&wSpaceReset 
-				&wFuncReset
-				&wPrgReset
-				&wNavReset
+				&mSymReset
+				&mSpaceReset 
+				&mFuncReset
+				&mPrgReset
+				&mNavReset
 				&none
 			>;		
 		};
@@ -1935,7 +1935,7 @@
 
 
 		// -----------------------------------------------------|
-		// 2 Layer  - wNRhard = 	  Zahlen Hard Lock				|
+		// 2 Layer  - wNRhard = 	  Zahlen Hard Lock			|
 		// -----------------------------------------------------|
 
 		mac_zahlenhard
@@ -1962,7 +1962,7 @@
 
 				// ----------------------------------------
 
-				&sl wSShift
+				&sl mSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -1978,7 +1978,7 @@
 
 				// ----------------------------------------
 
-				&wMdLs
+				&mMdLs
 				&kp LS(N7)				// /
 				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
@@ -1990,15 +1990,15 @@
 				&kp COMMA				// ,
 				&kp LS(SLASH)			// _
 				&kp SLASH 				// -
-				&wMdRs
+				&mMdRs
 
 				// ----------------------------------------
 		
-				&sl wSYM
+				&sl mSYM
 				&kp SPACE
-				&sl wFUNC
-				&sl wPRG 
-				&sl wNAV
+				&sl mFUNC
+				&sl mPRG 
+				&sl mNAV
 				&none
 			>;		
 		};
@@ -2034,7 +2034,7 @@
 
 				// ----------------------------------------
 	
-				&sl wSShift
+				&sl mSShift
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -2046,11 +2046,11 @@
 				&kp LS(R)
 				&kp LS(S)
 				&kp LS(G)
-				&wEnterReset
+				&mEnterReset
 
 				// ----------------------------------------
 
-				&wMdLs
+				&mMdLs
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -2062,16 +2062,16 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&wMdRs					
+				&mMdRs					
 
 				// ----------------------------------------
 
-				&wSymReset
-				&wSpaceReset 
-				&wFuncReset
-				&wPrgReset
-				&wNavReset
-				&wMdNr
+				&mSymReset
+				&mSpaceReset 
+				&mFuncReset
+				&mPrgReset
+				&mNavReset
+				&mMdNr
 
 				// ----------------------------------------		
 			>;
@@ -2108,7 +2108,7 @@
 
 				// ----------------------------------------
 
-				&sl wSShift
+				&sl mSShift
 				&kp LC(END)					// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
@@ -2140,12 +2140,12 @@
 
 				// ----------------------------------------
 
-				&sl wSYM
+				&sl mSYM
 				&kp SPACE				
-				&sl wFUNC
-				&wReset 
-				&sl wSNAV
-				&wMdNr
+				&sl mFUNC
+				&mReset 
+				&sl mSNAV
+				&mMdNr
 
 				// ----------------------------------------							
 			>;
@@ -2181,7 +2181,7 @@
 
 				// ----------------------------------------
 		
-				&sl wSShift	
+				&sl mSShift	
 				&kp LC(LS(END))
 				&kp LEFT
 				&kp DOWN
@@ -2213,12 +2213,12 @@
 
 				// ----------------------------------------
 		
-				&sl wSYM
+				&sl mSYM
 				&kp SPACE				
-				&sl wFUNC
-				&wReset 
-				&wNavReset
-				&wMdNr					// 
+				&sl mFUNC
+				&mReset 
+				&mNavReset
+				&mMdNr					// 
 
 				// ----------------------------------------							
 			>;
@@ -2291,8 +2291,8 @@
 				&none
 				&none
 				&none
-				&sl wSPRG					// deep						
-				&wNavReset
+				&sl mSPRG					// deep						
+				&mNavReset
 				&none
 
 				// ----------------------------------------
@@ -2368,7 +2368,7 @@
 				&none						//
 				&none
 				&trans						// 
-				&wNavReset
+				&mNavReset
 				&none						// 
 
 				// ----------------------------------------
@@ -2411,14 +2411,14 @@
 				// ----------------------------------------
 
 				&kp LG(LS(F8))
-				&kp LC(A)
+				&kp LG(A)
 				&kp LC(LA(L))	
 				&kp LC(LA(R))	
-				&kp LC(C)			
-				&kp LC(X)
+				&kp LG(C)			
+				&kp LG(X)
 
+				&kp LG(LA(V))
 				&kp LG(V)
-				&kp LC(V)
 				&kp LC(LA(I))	
 				&kp LC(LA(U))	
 				&kp LC(LA(J))	
@@ -2427,26 +2427,26 @@
 				// ----------------------------------------
 
 				&kp LG(LS(F9))
-				&kp LC(S)
-				&kp LC(Y)
-				&kp LC(Z)
-				&kp LC(O)
-				&kp LC(DELETE)	
+				&kp LG(S)
+				&kp LG(Y)
+				&kp LG(Z)
+				&kp LG(O)
+				&kp LG(DELETE)	
 
-				&kp LC(P)	
-				&kp LC(LA(F))	
+				&kp LG(P)	
+				&kp LG(LA(F))	
 				&kp LG(INSERT)	
 				&kp LG(DEL)	
-				&kp LC(F)	
+				&kp LG(F)	
 				&kp LC(LA(C))	
 				
 				// ----------------------------------------
 
-				&wModAltReset
-				&sl wGUI					//
-				&sl wSFUNC					// deep
+				&mModAltReset
+				&sl mGUI					//
+				&sl mSFUNC					// deep
 				&none
-				&wNavReset
+				&mNavReset
 				&none						//
 
 				// ----------------------------------------
@@ -2515,11 +2515,11 @@
 				
 				// ----------------------------------------
 
-				&wModGuiReset
-				&wModSCtlReset
+				&mModGuiReset
+				&mModSCtlReset
 				&trans						// 
 				&none
-				&wNavReset
+				&mNavReset
 				&none						//
 
 				// ----------------------------------------       
@@ -2593,7 +2593,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&wNavReset
+				&mNavReset
 				&none						// 
 
 				// ----------------------------------------
@@ -2665,7 +2665,7 @@
 				&kp LC(SPC)
 				&none						// 
 				&none						//
-				&wNavReset
+				&mNavReset
 				&none						// 
 
 				// ----------------------------------------
@@ -2737,11 +2737,11 @@
 		
 				// ----------------------------------------
 
-				&sl wSSYM				// deep
+				&sl mSSYM				// deep
 				&kp SPACE
 				&kp LA(TAB)				// 
 				&none					//
-				&wNavReset
+				&mNavReset
 				&none					//
 
 				// ----------------------------------------
@@ -2813,7 +2813,7 @@
 				&kp SPACE
 				&kp LA(TAB)				// 
 				&none					//
-				&wNavReset
+				&mNavReset
 				&none					//
 
 				// ----------------------------------------
@@ -2824,7 +2824,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 14 - wSideShift =	Side Shift					|
+		// Layer 14 - SideShift =	Side Shift					|
 		// -----------------------------------------------------|
 
 		mac_mSShift
@@ -2851,7 +2851,7 @@
 
 				// ----------------------------------------
 		
-				&sl wSSShift
+				&sl mSSShift
 				&kp LALT
 				&kp LWIN
 				&kp LSHFT
@@ -2885,10 +2885,10 @@
 		
 				&kp LG(LA(S))				// 
 				&kp LG(S)
-				&wAlterReset				// 
-				&wPrgReset					//
-				&wNavReset
-				&wNrReset
+				&mAlterReset				// 
+				&mPrgReset					//
+				&mNavReset
+				&mNrReset
 
 				// ----------------------------------------
 			>;
@@ -2956,12 +2956,12 @@
 
 				// ----------------------------------------
 		
-				&wSymReset
+				&mSymReset
 				&kp LG(LA(S))
-				&wAlterReset				// 
-				&wPrgReset					//
-				&wNavReset
-				&wNrReset
+				&mAlterReset				// 
+				&mPrgReset					//
+				&mNavReset
+				&mNrReset
 
 				// ----------------------------------------
 			>;
