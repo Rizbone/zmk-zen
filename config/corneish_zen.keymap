@@ -2907,7 +2907,7 @@
 				// ----------------------------------------
 		
 				&kp LG(LA(S))				// 
-				&kp LG(S)
+				&kp LG(SPACE)
 				&mAlterReset				// 
 				&mPrgReset					//
 				&mNavReset
@@ -2980,7 +2980,7 @@
 				// ----------------------------------------
 		
 				&mSymReset
-				&kp LG(LA(S))
+				&kp LG(LA(SPACE))
 				&mAlterReset				// 
 				&mPrgReset					//
 				&mNavReset
