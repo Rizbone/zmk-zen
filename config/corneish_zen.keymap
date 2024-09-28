@@ -322,6 +322,373 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 1 - mNR = 	  Zahlen 							|
+		// -----------------------------------------------------|
+
+		mac_zahlen
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC	
+				&kp RBKT  				// +
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
+				&kp NUHS				// #
+				&kp X
+				
+				&kp LA(L)				// @
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
+				&kp M
+				&kp LS(RBKT)			// *				
+				&kp BACKSPACE
+
+				// ----------------------------------------
+
+				&sl mSShift
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5		
+
+				&kp N6				
+				&kp N7				
+				&kp N8			
+				&kp N9				
+				&kp N0				
+				&mEnterReset 
+
+				// ----------------------------------------
+
+				&mShiftReset
+				&kp LS(N7)				// /
+				&kp LS(LA(N7))			// backlslash
+				&kp LS(N5)				// %
+				&kp LA(LC(E))			// €
+				&kp NUBS				// ^
+
+				&kp LS(N0)				// =
+				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp LS(SLASH)			// _
+				&kp SLASH 				// -
+				&mShiftReset
+
+				// ----------------------------------------
+		
+				&mSymReset
+				&mSpaceReset 
+				&mFuncReset
+				&mPrgReset
+				&mNavReset
+				&none
+			>;		
+		};
+
+
+
+		// -----------------------------------------------------|
+		// 2 Layer  - wNRhard = 	  Zahlen Hard Lock			|
+		// -----------------------------------------------------|
+
+		mac_zahlenhard
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC	
+				&kp RBKT  				// +
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
+				&kp NUHS				// #
+				&kp X
+				
+				&kp LA(L)				// @
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
+				&kp M
+				&kp LS(RBKT)			// *	
+				&kp BSPC
+
+				// ----------------------------------------
+
+				&sl mSShift
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5		
+
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				// ----------------------------------------
+
+				&mMdLs
+				&kp LS(N7)				// /
+				&kp LS(LA(N7))			// backlslash
+				&kp LS(N5)				// %
+				&kp LA(LC(E))			// €
+				&kp NUBS				// ^
+
+				&kp LS(N0)				// =
+				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp LS(SLASH)			// _
+				&kp SLASH 				// -
+				&mMdRs
+
+				// ----------------------------------------
+		
+				&sl mSYM
+				&kp SPACE
+				&sl mFUNC
+				&sl mPRG 
+				&sl mNAV
+				&none
+			>;		
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// 3 Layer  - mLCHAR = 	  Buchstaben Lock				|
+		// -----------------------------------------------------|
+	
+		mac_lchar
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+
+				// ----------------------------------------
+	
+				&sl mSShift
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+			
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&mEnterReset
+
+				// ----------------------------------------
+
+				&mMdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mMdRs					
+
+				// ----------------------------------------
+
+				&mSymReset
+				&mSpaceReset 
+				&mFuncReset
+				&mPrgReset
+				&mNavReset
+				&mMdNr
+
+				// ----------------------------------------		
+			>;
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer = 4 - wNAV - Navigation						|
+		// -----------------------------------------------------|
+
+		mac_navigation
+		{		
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LC(LA(B))	
+				&kp LG(UP)					// @Home Sprung
+				&kp LS(TAB)
+				&kp UP						// @Up
+				&kp TAB
+				&kp LG(KP_MULTIPLY)	
+
+				&kp DEL
+				&kp LG(KP_PLUS)		
+				&kp LC(UP)
+				&kp LG(KP_MINUS)
+				&kp LA(UP)
+				&kp BSPC					
+
+				// ----------------------------------------
+
+				&sl mSShift
+				&kp LG(DOWN)				// @End Sprung
+				&kp LEFT 					// @Left
+				&kp DOWN					// @Down
+				&kp RIGHT 					// @Right
+				&kp LC(LA(G))	
+				
+				&kp LC(LS(F10))
+				&kp LS(LC(TAB))			 	// 
+				&kp LC(DOWN)
+				&kp LC(TAB)				 	// 
+				&kp LA(DOWN)
+				&kp ENTER					// -
+				
+				// ----------------------------------------
+
+				&kp LSHFT
+				&kp LG(LEFT)				// @Home 
+				&kp LA(LEFT)				// @Wort Sprung
+				&kp LA(RIGHT)				// @Wort Sprung
+				&kp LG(RIGHT)				// @End  
+				&kp LG(TAB)
+
+				&kp LG(LA(LC(O)))
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  
+				&kp LSHFT
+
+				// ----------------------------------------
+
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
+				&mReset 
+				&sl mSNAV
+				&mMdNr
+
+				// ----------------------------------------							
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer = 5 - wSNAV - Navigation						|
+		// -----------------------------------------------------|
+
+		mac_snavigation
+		{		
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LC(LG(LA(B)))
+				&kp LG(LS(UP))					// @Home Sprung
+				&kp LS(TAB)
+				&kp UP						
+				&kp TAB
+				&kp LG(LS(KP_MULTIPLY))
+
+				&kp INSERT
+				&kp LG(LS(KP_PLUS))
+				&kp LG(PG_UP)
+				&kp LG(LS(KP_MINUS))
+				&kp PG_UP
+				&kp BACKSPACE
+
+				// ----------------------------------------
+		
+				&sl mSShift	
+				&kp LG(LS(DOWN))				// @End Sprung
+				&kp LEFT
+				&kp DOWN
+				&kp RIGHT
+				&kp LC(LG(LA(G)))
+
+				&kp LC(LS(F11))	
+				&kp LCTL				
+				&kp LG(PG_DN)
+				&kp LGUI			
+				&kp PG_DN
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LSHIFT						
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  
+				&kp LG(LS(TAB))
+				
+				&kp LG(LA(LC(O)))		
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  					
+				&kp RSHIFT						
+
+				// ----------------------------------------
+		
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
+				&mReset 
+				&mNavReset
+				&mMdNr					// 
+
+				// ----------------------------------------							
+			>;
+		};
+
+
+
+
+
+
+
 
 	};
 };
