@@ -839,6 +839,596 @@
 
 
 
+
+					
+
+
+		// -----------------------------------------------------|
+		// Layer 8 - mFUNC =	Funktionen						|
+		// -----------------------------------------------------|
+
+		mac_function
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+	
+				&kp LG(LS(F7))
+				&kp LC(LA(F1))	
+				&kp LC(LA(F2))	
+				&kp LC(LA(F3))	
+				&kp LC(LA(F4))	
+				&kp LC(LA(F5))	
+
+				&kp LC(LA(F6))	
+				&kp LC(LA(F7))	
+				&kp LC(LA(F8))	
+				&kp LC(LA(F9))	
+				&kp LC(LA(F10))	
+				&kp BACKSPACE			
+				
+				// ----------------------------------------
+
+				&kp LG(LS(F8))
+				&kp LG(A)
+				&kp LC(LA(L))	
+				&kp LC(LA(R))	
+				&kp LG(C)			
+				&kp LG(X)
+
+				&kp LG(LA(W))
+				&kp LG(V)
+				&kp LC(LA(I))	
+				&kp LC(LA(U))	
+				&kp LC(LA(J))	
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LG(LS(F9))
+				&kp LG(LA(S))
+				&kp LG(Y)
+				&kp LG(Z)
+				&kp LG(LA(P))
+				&kp LG(LA(O))
+
+				&kp LG(LA(V))
+				&kp LG(LA(F))	
+				&kp LG(INSERT)	
+				&kp LG(DEL)	
+				&kp LG(LA(R))
+				&kp LC(LA(C))	
+				
+				// ----------------------------------------
+
+				&mModSGuiReset
+				&sl mGUI					//
+				&sl mSFUNC					// deep
+				&none
+				&mNavReset
+				&none						//
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 9 - mSFUNC =	Spezial Funktionen				|
+		// -----------------------------------------------------|
+
+		mac_specialfunction
+		{
+			label = "mac";
+
+			bindings = <
+
+			// ----------------------------------------
+	
+				&kp LG(LS(F10))
+				&kp LC(LA(LS(F1)))	
+				&kp LC(LA(LS(F2)))	
+				&kp LC(LA(LS(F3)))	
+				&kp LC(LA(LS(F4)))	
+				&kp LC(LA(LS(F5)))	
+
+				&kp LC(LA(LS(F6)))	
+				&kp LC(LA(LS(F7)))	
+				&kp LC(LA(LS(F8)))	
+				&kp LC(LA(LS(F9)))
+				&kp LC(LA(LS(F10)))
+				&kp LA(BACKSPACE)
+				
+				// ----------------------------------------
+
+				&kp LG(LS(F11))
+				&kp LG(LS(A))
+				&kp LC(LS(LA(L)))	
+				&kp LC(LS(LA(R)))
+				&kp LG(LS(C))			
+				&kp LG(LS(X))
+
+				&kp LC(LS(LA(W)))
+				&kp LC(LS(LA(V)))	
+				&kp LC(LS(LA(I)))	
+				&kp LC(LS(LA(U)))	
+				&kp LC(LS(LA(J)))
+				&kp LA(ENTER)	
+
+				// ----------------------------------------
+
+				&kp LG(LS(F12))
+				&kp LC(LS(LA(S)))	
+				&kp LG(LS(Y))
+				&kp LG(LS(Z))
+				&kp LC(LS(LA(P)))	
+				&kp LC(LS(LA(O)))	
+
+				&kp LC(LS(LA(V)))	
+				&kp LC(LS(LA(F)))	
+				&kp LG(LS(INSERT))
+				&kp LG(LS(DEL))	
+				&kp LC(LS(LA(R)))	
+				&kp LC(LS(LA(C)))
+				
+				// ----------------------------------------
+
+				&mModCtlReset
+				&sl mOGUI					//
+				&trans						// 
+				&none
+				&mNavReset
+				&none						//
+
+				// ----------------------------------------       
+			>;
+		};
+
+
+
+
+		
+		// -----------------------------------------------------|
+		// Layer 10 - mGUI =	GUI								|
+		// -----------------------------------------------------|
+
+		mac_gui
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(ESC)					// 
+				&kp LG(J)					//
+				&kp LG(D)					//
+				&kp LG(U)					//
+				&kp LG(A)					//
+				&kp LG(X)					//
+
+				&kp LG(P)					//
+				&kp LG(H)					//
+				&kp LG(L) 					//
+				&kp LG(M)					//
+				&kp LG(W) 					//
+				&kp LG(BACKSPACE)			//
+
+				// ----------------------------------------
+		
+				&kp LG(DEL)					//
+				&kp LG(C)					//
+				&kp LG(T)					//
+				&kp LG(I)					//
+				&kp LG(E)					//
+				&kp LG(O)					//
+
+				&kp LG(B)					//
+				&kp LG(N)					//
+				&kp LG(R)					//
+				&kp LG(S)					//
+				&kp LG(G)					//
+				&kp LG(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LG(F)					//
+				&kp LG(V)					//
+				&kp LG(MINUS)				//
+				&kp LG(Y)					//
+				&kp LG(Q)					//
+
+				&kp LG(Z)					//
+				&kp LG(SEMICOLON)			//
+				&kp LG(LEFT_BRACKET)		//
+				&kp LG(SINGLE_QUOTE)		//
+				&kp LG(K) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&kp LG(SPC)
+				&none						// 
+				&none						//
+				&mNavReset
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 11 - ogui =	Option gui						|
+		// -----------------------------------------------------|
+
+		mac_ogui
+		{
+			label = "mac";
+
+			bindings = <
+
+				&kp LG(LA(ESC))					// 
+				&kp LG(LA(J))					//
+				&kp LG(LA(D))					//
+				&kp LG(LA(U))					//
+				&kp LG(LA(A))					//
+				&kp LG(LA(X))					//
+
+				&kp LG(LA(P))					//
+				&kp LG(LA(H))					//
+				&kp LG(LA(L))					//
+				&kp LG(LA(M))					//
+				&kp LG(LA(W))					//
+				&kp LG(LA(BACKSPACE))			//
+
+				// ----------------------------------------
+		
+				&kp LG(LA(DEL))					//
+				&kp LG(LA(C))					//
+				&kp LG(LA(T))					//
+				&kp LG(LA(I))					//
+				&kp LG(LA(E))					//
+				&kp LG(LA(O))					//
+
+				&kp LG(LA(B))					//
+				&kp LG(LA(N))					//
+				&kp LG(LA(R))					//
+				&kp LG(LA(S))					//
+				&kp LG(LA(G))					//
+				&kp LG(LA(ENTER))				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LG(LA(F))					//
+				&kp LG(LA(V))					//
+				&kp LG(LA(MINUS))				//
+				&kp LG(LA(Y))					//
+				&kp LG(LA(Q))					//
+
+				&kp LG(LA(Z))					//
+				&kp LG(LA(SEMICOLON))			//
+				&kp LG(LA(LEFT_BRACKET))		//
+				&kp LG(LA(SINGLE_QUOTE))		//
+				&kp LG(LA(K)) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&kp LG(LA(SPC))
+				&none						// 
+				&none						//
+				&mNavReset
+				&none						// 
+			>;
+		};
+		
+
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 12 - mSYM =	Symoble							|
+		// -----------------------------------------------------|
+
+		mac_symbole
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+				
+				&kp ESC
+				&kp RBKT  				// +
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
+				&kp NUHS				// #
+				&kp LA(N7)				// grader strich
+				
+				&kp LA(L)				// @
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
+				&kp LS(N6)				// &
+				&kp LS(RBKT)			// *	
+				&kp BACKSPACE			// Backspace
+
+				// ----------------------------------------
+
+				&kp LG(TAB)
+				&kp LA(N5)				// Eckige
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
+				&kp LA(N6)				// Eckige
+				&kp LS(NUHS)			// '
+
+				&kp LS(N2)				// "
+				&kp LS(N1)				// !
+				&kp LS(N8)				// Runde
+				&kp LS(N9)				// Runde
+				&kp LS(MINUS)			// ?
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LS(N3)
+				&kp LS(N7)				// /
+				&kp LS(LA(N7))			// backlslash
+				&kp LS(N5)				// %
+				&kp LA(LC(E))			// €
+				&kp NUBS				// ^
+
+				&kp LS(N0)				// =
+				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp LS(SLASH)			// _
+				&kp SLASH 				// -
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
+		
+				// ----------------------------------------
+
+				&sl mSSYM				// deep
+				&kp SPACE
+				&none					//
+				&none					//
+				&mNavReset
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 13 - mSSYM =	Special Symbole					|
+		// -----------------------------------------------------|
+
+		mac_specialsonderzeichen
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+				
+				&none	
+				&none					//
+				&kp LS(EQUAL)			//
+				&kp EQUAL				// 
+				&none					//
+				&none					//
+
+				&none					//
+				&none					//
+				&none
+				&kp RA(M)				// 
+				&none					//
+				&kp BACKSPACE			// 
+
+				// ----------------------------------------
+
+				&kp LG(LS(TAB))
+				&none					//
+				&none					//
+				&none
+				&none
+				&none					//
+
+				&none					//
+				&none					//
+				&none
+				&none
+				&none
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&none	
+				&none	
+				&none
+				&none
+				&kp LS(N4) 				// $
+				&kp LS(GRAVE)			// Grad
+
+				&kp LA(N)				// ~
+				&none
+				&none
+				&none
+				&none
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
+
+				// ----------------------------------------
+
+				&trans					//
+				&kp SPACE
+				&none					//
+				&none					//
+				&mNavReset
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};	
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 14 - SideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		mac_mSShift
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp LC(LA(F1))
+				&kp LC(LA(F2))
+				&kp LC(LA(F3))
+				&kp LC(LA(F4))
+				&kp LC(LA(F5))
+
+				&kp LA(SPACE)
+				&kp LG(LS(LEFT))
+				&kp LG(LA(LC(UP)))
+				&kp LG(LS(RIGHT))
+				&kp LG(PG_UP)				
+				&kp LG(Q)			
+
+				// ----------------------------------------
+		
+				&sl mSSShift
+				&kp LC(LA(LG(U)))
+				&kp LC(LA(LG(K)))
+				&kp LC(LA(LG(O)))
+				&kp LCTL
+				&kp DELETE
+
+				&kp LC(LA(M))
+				&kp LG(LA(LC(LEFT)))
+				&kp LG(LA(LC(DOWN)))
+				&kp LG(LA(LC(RIGHT)))
+				&kp LG(PG_DN)			
+				&kp LC(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LS(LG(S))
+				&kp LC(LA(F6))
+				&kp LC(LA(F7))
+				&kp LC(LA(F8))
+				&kp LC(LA(F9))
+				&kp LC(LA(F10))
+
+				&kp LC(LA(LG(F1)))
+				&kp LC(LA(LG(F2)))
+				&kp LC(LA(LG(F3)))	
+				&kp LC(LA(LG(F4)))
+				&kp LC(LA(LG(F5)))
+				&kp LC(LA(LG(F6)))
+
+				// ----------------------------------------
+		
+				&kp LG(TAB)				
+				&kp LG(SPACE)
+				&kp LSHFT
+				&mPrgReset					
+				&mNavReset
+				&mNrReset
+
+				// ----------------------------------------
+			>;
+		};
+
+
+						
+
+
+
+		// -----------------------------------------------------|
+		// Layer 15 - mSSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		mac_mSSShift
+		{
+			label = "mac";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&none
+				&none
+				&none
+				&kp LC(LA(DELETE))
+				&kp LG(L)
+
+				&kp LC(LG(LA(N6)))			
+				&kp LC(LG(LA(N7)))			
+				&kp LC(LG(LA(N8)))			
+				&kp LC(LG(LA(N9)))			
+				&kp LC(LG(LA(N0)))			
+				&kp LA(BACKSPACE)
+
+				// ----------------------------------------
+		
+				&trans
+				&none
+				&none
+				&kp LC(F1)
+				&kp LC(LA(LG(C)))
+				&kp LS(DELETE)
+
+				&kp LC(LG(LA(N1)))			
+				&kp LC(LG(LA(N2)))			
+				&kp LC(LG(LA(N3)))			
+				&kp LC(LG(LA(N4)))			
+				&kp LC(LG(LA(N5)))			
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&sys_reset
+				&bt BT_SEL 0
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_CLR
+
+				&kp LC(LA(LG(F7)))
+				&kp LC(LA(LG(F8)))
+				&kp LC(LA(LG(F9)))	
+				&kp LC(LA(LG(F10)))
+				&kp LC(LA(LG(F11)))
+				&kp LC(LA(LG(F12)))
+
+				// ----------------------------------------
+		
+				&kp LG(LS(TAB))				
+				&kp LG(LA(SPACE))
+				&kp LSHFT
+				&mPrgReset					//
+				&mNavReset
+				&mNrReset
+
+				// ----------------------------------------
+			>;
+		};
+
 	};
 };
 
