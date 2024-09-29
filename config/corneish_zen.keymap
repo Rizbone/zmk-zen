@@ -878,7 +878,7 @@
 				&kp LG(C)			
 				&kp LG(X)
 
-				&kp LG(LA(W))
+				&kp LG(LA(Y))
 				&kp LG(V)
 				&kp LC(LA(I))	
 				&kp LC(LA(U))	
@@ -891,14 +891,14 @@
 				&kp LG(LA(S))
 				&kp LG(Y)
 				&kp LG(Z)
-				&kp LG(LA(P))
+				&kp LG(LA(R))
 				&kp LG(LA(O))
 
 				&kp LG(LA(V))
 				&kp LG(LA(F))	
 				&kp LG(INSERT)	
 				&kp LG(DEL)	
-				&kp LG(LA(R))
+				&kp LG(LA(W))
 				&kp LC(LA(C))	
 				
 				// ----------------------------------------
@@ -951,7 +951,7 @@
 				&kp LG(LS(C))			
 				&kp LG(LS(X))
 
-				&kp LC(LS(LA(W)))
+				&kp LC(LS(LA(Y)))
 				&kp LC(LS(LA(V)))	
 				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
@@ -964,14 +964,14 @@
 				&kp LC(LS(LA(S)))	
 				&kp LG(LS(Y))
 				&kp LG(LS(Z))
-				&kp LC(LS(LA(P)))	
+				&kp LC(LS(LA(R)))	
 				&kp LC(LS(LA(O)))	
 
 				&kp LC(LS(LA(V)))	
 				&kp LC(LS(LA(F)))	
 				&kp LG(LS(INSERT))
 				&kp LG(LS(DEL))	
-				&kp LC(LS(LA(R)))	
+				&kp LC(LS(LA(W)))
 				&kp LC(LS(LA(C)))
 				
 				// ----------------------------------------
