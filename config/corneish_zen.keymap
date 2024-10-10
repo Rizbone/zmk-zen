@@ -558,9 +558,9 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LG(Z)
+				&kp LG(Y)
 
-				&kp LG(LS(Z))
+				&kp LG(LS(Y))
 				&kp LG(KP_PLUS)		
 				&kp LC(UP)
 				&kp LG(KP_MINUS)
@@ -631,9 +631,9 @@
 				&kp LS(TAB)
 				&kp UP						
 				&kp TAB
-				&kp LG(LA(Z))
+				&kp LG(LA(Y))
 
-				&kp LG(LA(LS(Z)))
+				&kp LG(LA(LS(Y)))
 				&kp LG(LS(KP_PLUS))
 				&kp PG_UP
 				&kp LG(LS(KP_MINUS))
