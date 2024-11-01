@@ -335,33 +335,33 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&none
+				&kp GRAVE				// Spitze
+				&kp COMMA
 				&kp N7
 				&kp N8
-				&kp DOT
 				&kp X
 			
 				&kp M
-				&kp COMMA
 				&kp N9
 				&kp N0
-				&nono
+				&kp DOT
+				&kp LS(GRAVE)			// Spitze		
 				&kp BACKSPACE
 
 				// ----------------------------------------
 
 				&sl mSShift
-				&none
+				&kp LS(N7)
 				&kp N1				
 				&kp N2				
 				&kp N3				
-				&kp GRAVE				// Spitze
+				&kp SLASH
 
-				&kp LS(GRAVE)			// Spitze		
+				&kp RBKT
 				&kp N4				
 				&kp N5			
 				&kp N6				
-				&kp LS(N0)				
+				&kp LS(RBKT)
 				&mEnterReset 
 
 				// ----------------------------------------
@@ -369,20 +369,20 @@
 				&mShiftReset
 				&none
 				&none
-				&kp LS(RBKT)
-				&kp LS(N7)
+				&none
+				&none
 				&none
 
 				&none
-				&kp SLASH
-				&kp RBKT
+				&kp LS(N0)				
+				&none
 				&none
 				&none
 				&mShiftReset
 
 				// ----------------------------------------
 		
-				&mSymReset
+				&sl mSYM
 				&mSpaceReset 
 				&mFuncReset
 				&mPrgReset
@@ -406,33 +406,33 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&none
+				&kp GRAVE				// Spitze
+				&kp COMMA
 				&kp N7
 				&kp N8
-				&kp DOT
 				&kp X
-				
+			
 				&kp M
-				&kp COMMA
 				&kp N9
 				&kp N0
-				&nono
+				&kp DOT
+				&kp LS(GRAVE)			// Spitze		
 				&kp BSPC
 
 				// ----------------------------------------
 
 				&sl mSShift
-				&none
+				&kp LS(N7)
 				&kp N1				
 				&kp N2				
 				&kp N3				
-				&kp GRAVE				// Spitze
+				&kp SLASH
 
-				&kp LS(GRAVE)			// Spitze		
+				&kp RBKT
 				&kp N4				
 				&kp N5			
 				&kp N6				
-				&kp LS(N0)							
+				&kp LS(RBKT)					
 				&kp ENTER 
 
 				// ----------------------------------------
@@ -440,13 +440,13 @@
 				&mMdLs
 				&none
 				&none
-				&kp LS(RBKT)
-				&kp LS(N7)
+				&none
+				&none
 				&none
 
 				&none
-				&kp SLASH
-				&kp RBKT
+				&kp LS(N0)				
+				&none
 				&none
 				&none
 				&mMdRs
@@ -525,7 +525,7 @@
 
 				// ----------------------------------------
 
-				&mSymReset
+				&sl mSYM
 				&mSpaceReset 
 				&mFuncReset
 				&mPrgReset
